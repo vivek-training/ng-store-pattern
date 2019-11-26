@@ -1,0 +1,17 @@
+<!-- Image and text -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img
+      src="assets/angular.png"
+      width="30"
+      height="30"
+      class="d-inline-block align-top"
+      alt=""
+    />
+    Store Pattern Demo
+  </a>
+
+  <h5 class="ml-auto text-light">
+    {{ (login$ | async) ? 'Welcome User!' : 'Please login...' }}
+  </h5>
+</nav>
